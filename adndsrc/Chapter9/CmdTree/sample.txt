@@ -1,0 +1,10 @@
+windbg ANSI Command Tree 1.0
+title {"Sample Command tree"}
+body
+{"Sample Commands"}
+ {"Critical Sections"} {"!cs"}
+ {"Loader lock"} {"X ntdll!LdrpLoaderLock"}
+ {"Fix symbols"} {".symfix"}
+
+
+

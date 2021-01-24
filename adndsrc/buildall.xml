@@ -1,0 +1,12 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+    <ItemGroup>
+        <Project 
+           Include="**\*.xml" 
+           Exclude="$(MSBuildProjectFile)" />
+     </ItemGroup>
+
+     <Target Name="BuildAll">
+         <MSBuild        
+            Projects="@(Project)"/> 
+     </Target>
+</Project>

@@ -1,0 +1,5 @@
+c:\temp\History\bin\Debug\History.exe
+c:\temp\History\bin\Debug\History.pdb
+c:\temp\History\obj\Debug\ResolveAssemblyReference.cache
+c:\temp\History\obj\Debug\History.exe
+c:\temp\History\obj\Debug\History.pdb

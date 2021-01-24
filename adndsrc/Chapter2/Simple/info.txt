@@ -1,0 +1,290 @@
+
+Dump of file 02simple.exe
+
+PE signature found
+
+File Type: EXECUTABLE IMAGE
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        600D1533 time date stamp Sun Jan 24 14:35:31 2021
+               0 file pointer to symbol table
+               0 number of symbols
+              E0 size of optional header
+             102 characteristics
+                   Executable
+                   32 bit word machine
+
+OPTIONAL HEADER VALUES
+             10B magic # (PE32)
+           11.00 linker version
+             400 size of code
+             800 size of initialized data
+               0 size of uninitialized data
+            239E entry point (0040239E)
+            2000 base of code
+            4000 base of data
+          400000 image base (00400000 to 00407FFF)
+            2000 section alignment
+             200 file alignment
+            4.00 operating system version
+            0.00 image version
+            4.00 subsystem version
+               0 Win32 version
+            8000 size of image
+             200 size of headers
+               0 checksum
+               3 subsystem (Windows CUI)
+            8540 DLL characteristics
+                   Dynamic base
+                   NX compatible
+                   No structured exception handler
+                   Terminal Server Aware
+          100000 size of stack reserve
+            1000 size of stack commit
+          100000 size of heap reserve
+            1000 size of heap commit
+               0 loader flags
+              10 number of directories
+               0 [       0] RVA [size] of Export Directory
+            2344 [      57] RVA [size] of Import Directory
+            4000 [     4E0] RVA [size] of Resource Directory
+               0 [       0] RVA [size] of Exception Directory
+               0 [       0] RVA [size] of Certificates Directory
+            6000 [       C] RVA [size] of Base Relocation Directory
+               0 [       0] RVA [size] of Debug Directory
+               0 [       0] RVA [size] of Architecture Directory
+               0 [       0] RVA [size] of Global Pointer Directory
+               0 [       0] RVA [size] of Thread Storage Directory
+               0 [       0] RVA [size] of Load Configuration Directory
+               0 [       0] RVA [size] of Bound Import Directory
+            2000 [       8] RVA [size] of Import Address Table Directory
+               0 [       0] RVA [size] of Delay Import Directory
+            2008 [      48] RVA [size] of COM Descriptor Directory
+               0 [       0] RVA [size] of Reserved Directory
+
+
+SECTION HEADER #1
+   .text name
+     3A4 virtual size
+    2000 virtual address (00402000 to 004023A3)
+     400 size of raw data
+     200 file pointer to raw data (00000200 to 000005FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+60000020 flags
+         Code
+         Execute Read
+
+RAW DATA #1
+  00402000: 80 23 00 00 00 00 00 00 48 00 00 00 02 00 05 00  .#......H.......
+  00402010: 68 20 00 00 DC 02 00 00 01 00 00 00 01 00 00 06  h ..¨¹...........
+  00402020: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00402030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00402040: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00402050: 36 00 72 01 00 00 70 28 03 00 00 0A 00 2A 1E 02  6.r...p(.....*..
+  00402060: 28 04 00 00 0A 2A 00 00 42 53 4A 42 01 00 01 00  (....*..BSJB....
+  00402070: 00 00 00 00 0C 00 00 00 76 34 2E 30 2E 33 30 33  ........v4.0.303
+  00402080: 31 39 00 00 00 00 05 00 6C 00 00 00 EC 00 00 00  19......l...¨¬...
+  00402090: 23 7E 00 00 58 01 00 00 E0 00 00 00 23 53 74 72  #~..X...¨¤...#Str
+  004020A0: 69 6E 67 73 00 00 00 00 38 02 00 00 4C 00 00 00  ings....8...L...
+  004020B0: 23 55 53 00 84 02 00 00 10 00 00 00 23 47 55 49  #US.........#GUI
+  004020C0: 44 00 00 00 94 02 00 00 48 00 00 00 23 42 6C 6F  D.......H...#Blo
+  004020D0: 62 00 00 00 00 00 00 00 02 00 00 01 47 15 00 00  b...........G...
+  004020E0: 09 00 00 00 00 FA 25 33 00 16 00 00 01 00 00 00  .....¨²%3........
+  004020F0: 04 00 00 00 02 00 00 00 02 00 00 00 01 00 00 00  ................
+  00402100: 04 00 00 00 02 00 00 00 01 00 00 00 01 00 00 00  ................
+  00402110: 00 00 0A 00 01 00 00 00 00 00 06 00 4E 00 47 00  ............N.G.
+  00402120: 06 00 85 00 65 00 06 00 A5 00 65 00 06 00 CC 00  ....e...£¤.e...¨¬.
+  00402130: 47 00 00 00 00 00 01 00 00 00 00 00 01 00 01 00  G...............
+  00402140: 00 00 10 00 17 00 1E 00 05 00 01 00 01 00 50 20  ..............P 
+  00402150: 00 00 00 00 91 00 55 00 0A 00 01 00 5E 20 00 00  ......U.....^ ..
+  00402160: 00 00 86 18 5A 00 10 00 02 00 00 00 01 00 60 00  ....Z.........`.
+  00402170: 11 00 5A 00 14 00 19 00 5A 00 10 00 21 00 D4 00  ..Z.....Z...!.?.
+  00402180: 19 00 09 00 5A 00 10 00 2E 00 0B 00 1E 00 2E 00  ....Z...........
+  00402190: 13 00 27 00 04 80 00 00 00 00 00 00 00 00 00 00  ..'.............
+  004021A0: 00 00 00 00 00 00 C3 00 00 00 04 00 00 00 00 00  ......?.........
+  004021B0: 00 00 00 00 00 00 01 00 3E 00 00 00 00 00 00 00  ........>.......
+  004021C0: 00 3C 4D 6F 64 75 6C 65 3E 00 30 32 73 69 6D 70  .<Module>.02simp
+  004021D0: 6C 65 2E 65 78 65 00 53 69 6D 70 6C 65 00 41 64  le.exe.Simple.Ad
+  004021E0: 76 61 6E 63 65 64 2E 4E 45 54 2E 44 65 62 75 67  vanced.NET.Debug
+  004021F0: 67 69 6E 67 2E 43 68 61 70 74 65 72 32 00 6D 73  ging.Chapter2.ms
+  00402200: 63 6F 72 6C 69 62 00 53 79 73 74 65 6D 00 4F 62  corlib.System.Ob
+  00402210: 6A 65 63 74 00 4D 61 69 6E 00 2E 63 74 6F 72 00  ject.Main..ctor.
+  00402220: 61 72 67 73 00 53 79 73 74 65 6D 2E 52 75 6E 74  args.System.Runt
+  00402230: 69 6D 65 2E 43 6F 6D 70 69 6C 65 72 53 65 72 76  ime.CompilerServ
+  00402240: 69 63 65 73 00 43 6F 6D 70 69 6C 61 74 69 6F 6E  ices.Compilation
+  00402250: 52 65 6C 61 78 61 74 69 6F 6E 73 41 74 74 72 69  RelaxationsAttri
+  00402260: 62 75 74 65 00 52 75 6E 74 69 6D 65 43 6F 6D 70  bute.RuntimeComp
+  00402270: 61 74 69 62 69 6C 69 74 79 41 74 74 72 69 62 75  atibilityAttribu
+  00402280: 74 65 00 30 32 73 69 6D 70 6C 65 00 43 6F 6E 73  te.02simple.Cons
+  00402290: 6F 6C 65 00 57 72 69 74 65 4C 69 6E 65 00 00 00  ole.WriteLine...
+  004022A0: 00 47 57 00 65 00 6C 00 63 00 6F 00 6D 00 65 00  .GW.e.l.c.o.m.e.
+  004022B0: 20 00 74 00 6F 00 20 00 41 00 64 00 76 00 61 00   .t.o. .A.d.v.a.
+  004022C0: 6E 00 63 00 65 00 64 00 20 00 2E 00 4E 00 45 00  n.c.e.d. ...N.E.
+  004022D0: 54 00 20 00 44 00 65 00 62 00 75 00 67 00 67 00  T. .D.e.b.u.g.g.
+  004022E0: 69 00 6E 00 67 00 21 00 00 00 00 00 48 F8 7A 47  i.n.g.!.....H?zG
+  004022F0: DB 05 1E 42 94 FA 13 40 92 35 08 AE 00 08 B7 7A  ?..B.¨².@.5.?..¡¤z
+  00402300: 5C 56 19 34 E0 89 05 00 01 01 1D 0E 03 20 00 01  \V.4¨¤........ ..
+  00402310: 04 20 01 01 08 04 00 01 01 0E 08 01 00 08 00 00  . ..............
+  00402320: 00 00 00 1E 01 00 01 00 54 02 16 57 72 61 70 4E  ........T..WrapN
+  00402330: 6F 6E 45 78 63 65 70 74 69 6F 6E 54 68 72 6F 77  onExceptionThrow
+  00402340: 73 01 00 00 6C 23 00 00 00 00 00 00 00 00 00 00  s...l#..........
+  00402350: 8E 23 00 00 00 20 00 00 00 00 00 00 00 00 00 00  .#... ..........
+  00402360: 00 00 00 00 00 00 00 00 00 00 00 00 80 23 00 00  .............#..
+  00402370: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00402380: 00 00 5F 43 6F 72 45 78 65 4D 61 69 6E 00 6D 73  .._CorExeMain.ms
+  00402390: 63 6F 72 65 65 2E 64 6C 6C 00 00 00 00 00 FF 25  coree.dll.....?%
+  004023A0: 00 20 40 00                                      . @.
+
+  clr Header:
+
+              48 cb
+            2.05 runtime version
+            2068 [     2DC] RVA [size] of MetaData Directory
+               1 flags
+                   IL Only
+         6000001 entry point token
+               0 [       0] RVA [size] of Resources Directory
+               0 [       0] RVA [size] of StrongNameSignature Directory
+               0 [       0] RVA [size] of CodeManagerTable Directory
+               0 [       0] RVA [size] of VTableFixups Directory
+               0 [       0] RVA [size] of ExportAddressTableJumps Directory
+               0 [       0] RVA [size] of ManagedNativeHeader Directory
+
+
+  Section contains the following imports:
+
+    mscoree.dll
+                402000 Import Address Table
+                40236C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    0 _CorExeMain
+
+SECTION HEADER #2
+   .rsrc name
+     4E0 virtual size
+    4000 virtual address (00404000 to 004044DF)
+     600 size of raw data
+     600 file pointer to raw data (00000600 to 00000BFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40000040 flags
+         Initialized Data
+         Read Only
+
+RAW DATA #2
+  00404000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00  ................
+  00404010: 10 00 00 00 20 00 00 80 18 00 00 00 38 00 00 80  .... .......8...
+  00404020: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00  ................
+  00404030: 01 00 00 00 50 00 00 80 00 00 00 00 00 00 00 00  ....P...........
+  00404040: 00 00 00 00 00 00 01 00 01 00 00 00 68 00 00 80  ............h...
+  00404050: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00  ................
+  00404060: 00 00 00 00 80 00 00 00 00 00 00 00 00 00 00 00  ................
+  00404070: 00 00 00 00 00 00 01 00 00 00 00 00 90 00 00 00  ................
+  00404080: A0 40 00 00 4C 02 00 00 00 00 00 00 00 00 00 00  .@..L...........
+  00404090: F0 42 00 00 EA 01 00 00 00 00 00 00 00 00 00 00  eB..¨º...........
+  004040A0: 4C 02 34 00 00 00 56 00 53 00 5F 00 56 00 45 00  L.4...V.S._.V.E.
+  004040B0: 52 00 53 00 49 00 4F 00 4E 00 5F 00 49 00 4E 00  R.S.I.O.N._.I.N.
+  004040C0: 46 00 4F 00 00 00 00 00 BD 04 EF FE 00 00 01 00  F.O.....?.?t....
+  004040D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  004040E0: 3F 00 00 00 00 00 00 00 04 00 00 00 01 00 00 00  ?...............
+  004040F0: 00 00 00 00 00 00 00 00 00 00 00 00 44 00 00 00  ............D...
+  00404100: 01 00 56 00 61 00 72 00 46 00 69 00 6C 00 65 00  ..V.a.r.F.i.l.e.
+  00404110: 49 00 6E 00 66 00 6F 00 00 00 00 00 24 00 04 00  I.n.f.o.....$...
+  00404120: 00 00 54 00 72 00 61 00 6E 00 73 00 6C 00 61 00  ..T.r.a.n.s.l.a.
+  00404130: 74 00 69 00 6F 00 6E 00 00 00 00 00 00 00 B0 04  t.i.o.n.......¡ã.
+  00404140: AC 01 00 00 01 00 53 00 74 00 72 00 69 00 6E 00  ?.....S.t.r.i.n.
+  00404150: 67 00 46 00 69 00 6C 00 65 00 49 00 6E 00 66 00  g.F.i.l.e.I.n.f.
+  00404160: 6F 00 00 00 88 01 00 00 01 00 30 00 30 00 30 00  o.........0.0.0.
+  00404170: 30 00 30 00 34 00 62 00 30 00 00 00 2C 00 02 00  0.0.4.b.0...,...
+  00404180: 01 00 46 00 69 00 6C 00 65 00 44 00 65 00 73 00  ..F.i.l.e.D.e.s.
+  00404190: 63 00 72 00 69 00 70 00 74 00 69 00 6F 00 6E 00  c.r.i.p.t.i.o.n.
+  004041A0: 00 00 00 00 20 00 00 00 30 00 08 00 01 00 46 00  .... ...0.....F.
+  004041B0: 69 00 6C 00 65 00 56 00 65 00 72 00 73 00 69 00  i.l.e.V.e.r.s.i.
+  004041C0: 6F 00 6E 00 00 00 00 00 30 00 2E 00 30 00 2E 00  o.n.....0...0...
+  004041D0: 30 00 2E 00 30 00 00 00 3C 00 0D 00 01 00 49 00  0...0...<.....I.
+  004041E0: 6E 00 74 00 65 00 72 00 6E 00 61 00 6C 00 4E 00  n.t.e.r.n.a.l.N.
+  004041F0: 61 00 6D 00 65 00 00 00 30 00 32 00 73 00 69 00  a.m.e...0.2.s.i.
+  00404200: 6D 00 70 00 6C 00 65 00 2E 00 65 00 78 00 65 00  m.p.l.e...e.x.e.
+  00404210: 00 00 00 00 28 00 02 00 01 00 4C 00 65 00 67 00  ....(.....L.e.g.
+  00404220: 61 00 6C 00 43 00 6F 00 70 00 79 00 72 00 69 00  a.l.C.o.p.y.r.i.
+  00404230: 67 00 68 00 74 00 00 00 20 00 00 00 44 00 0D 00  g.h.t... ...D...
+  00404240: 01 00 4F 00 72 00 69 00 67 00 69 00 6E 00 61 00  ..O.r.i.g.i.n.a.
+  00404250: 6C 00 46 00 69 00 6C 00 65 00 6E 00 61 00 6D 00  l.F.i.l.e.n.a.m.
+  00404260: 65 00 00 00 30 00 32 00 73 00 69 00 6D 00 70 00  e...0.2.s.i.m.p.
+  00404270: 6C 00 65 00 2E 00 65 00 78 00 65 00 00 00 00 00  l.e...e.x.e.....
+  00404280: 34 00 08 00 01 00 50 00 72 00 6F 00 64 00 75 00  4.....P.r.o.d.u.
+  00404290: 63 00 74 00 56 00 65 00 72 00 73 00 69 00 6F 00  c.t.V.e.r.s.i.o.
+  004042A0: 6E 00 00 00 30 00 2E 00 30 00 2E 00 30 00 2E 00  n...0...0...0...
+  004042B0: 30 00 00 00 38 00 08 00 01 00 41 00 73 00 73 00  0...8.....A.s.s.
+  004042C0: 65 00 6D 00 62 00 6C 00 79 00 20 00 56 00 65 00  e.m.b.l.y. .V.e.
+  004042D0: 72 00 73 00 69 00 6F 00 6E 00 00 00 30 00 2E 00  r.s.i.o.n...0...
+  004042E0: 30 00 2E 00 30 00 2E 00 30 00 00 00 00 00 00 00  0...0...0.......
+  004042F0: EF BB BF 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E  ???<?xml version
+  00404300: 3D 22 31 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D  ="1.0" encoding=
+  00404310: 22 55 54 46 2D 38 22 20 73 74 61 6E 64 61 6C 6F  "UTF-8" standalo
+  00404320: 6E 65 3D 22 79 65 73 22 3F 3E 0D 0A 3C 61 73 73  ne="yes"?>..<ass
+  00404330: 65 6D 62 6C 79 20 78 6D 6C 6E 73 3D 22 75 72 6E  embly xmlns="urn
+  00404340: 3A 73 63 68 65 6D 61 73 2D 6D 69 63 72 6F 73 6F  :schemas-microso
+  00404350: 66 74 2D 63 6F 6D 3A 61 73 6D 2E 76 31 22 20 6D  ft-com:asm.v1" m
+  00404360: 61 6E 69 66 65 73 74 56 65 72 73 69 6F 6E 3D 22  anifestVersion="
+  00404370: 31 2E 30 22 3E 0D 0A 20 20 3C 61 73 73 65 6D 62  1.0">..  <assemb
+  00404380: 6C 79 49 64 65 6E 74 69 74 79 20 76 65 72 73 69  lyIdentity versi
+  00404390: 6F 6E 3D 22 31 2E 30 2E 30 2E 30 22 20 6E 61 6D  on="1.0.0.0" nam
+  004043A0: 65 3D 22 4D 79 41 70 70 6C 69 63 61 74 69 6F 6E  e="MyApplication
+  004043B0: 2E 61 70 70 22 2F 3E 0D 0A 20 20 3C 74 72 75 73  .app"/>..  <trus
+  004043C0: 74 49 6E 66 6F 20 78 6D 6C 6E 73 3D 22 75 72 6E  tInfo xmlns="urn
+  004043D0: 3A 73 63 68 65 6D 61 73 2D 6D 69 63 72 6F 73 6F  :schemas-microso
+  004043E0: 66 74 2D 63 6F 6D 3A 61 73 6D 2E 76 32 22 3E 0D  ft-com:asm.v2">.
+  004043F0: 0A 20 20 20 20 3C 73 65 63 75 72 69 74 79 3E 0D  .    <security>.
+  00404400: 0A 20 20 20 20 20 20 3C 72 65 71 75 65 73 74 65  .      <requeste
+  00404410: 64 50 72 69 76 69 6C 65 67 65 73 20 78 6D 6C 6E  dPrivileges xmln
+  00404420: 73 3D 22 75 72 6E 3A 73 63 68 65 6D 61 73 2D 6D  s="urn:schemas-m
+  00404430: 69 63 72 6F 73 6F 66 74 2D 63 6F 6D 3A 61 73 6D  icrosoft-com:asm
+  00404440: 2E 76 33 22 3E 0D 0A 20 20 20 20 20 20 20 20 3C  .v3">..        <
+  00404450: 72 65 71 75 65 73 74 65 64 45 78 65 63 75 74 69  requestedExecuti
+  00404460: 6F 6E 4C 65 76 65 6C 20 6C 65 76 65 6C 3D 22 61  onLevel level="a
+  00404470: 73 49 6E 76 6F 6B 65 72 22 20 75 69 41 63 63 65  sInvoker" uiAcce
+  00404480: 73 73 3D 22 66 61 6C 73 65 22 2F 3E 0D 0A 20 20  ss="false"/>..  
+  00404490: 20 20 20 20 3C 2F 72 65 71 75 65 73 74 65 64 50      </requestedP
+  004044A0: 72 69 76 69 6C 65 67 65 73 3E 0D 0A 20 20 20 20  rivileges>..    
+  004044B0: 3C 2F 73 65 63 75 72 69 74 79 3E 0D 0A 20 20 3C  </security>..  <
+  004044C0: 2F 74 72 75 73 74 49 6E 66 6F 3E 0D 0A 3C 2F 61  /trustInfo>..</a
+  004044D0: 73 73 65 6D 62 6C 79 3E 0D 0A 00 00 00 00 00 00  ssembly>........
+
+SECTION HEADER #3
+  .reloc name
+       C virtual size
+    6000 virtual address (00406000 to 0040600B)
+     200 size of raw data
+     C00 file pointer to raw data (00000C00 to 00000DFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42000040 flags
+         Initialized Data
+         Discardable
+         Read Only
+
+RAW DATA #3
+  00406000: 00 20 00 00 0C 00 00 00 A0 33 00 00              . .......3..
+
+BASE RELOCATIONS #3
+    2000 RVA,        C SizeOfBlock
+     3A0  HIGHLOW            00402000
+       0  ABS                        
+
+  Summary
+
+        2000 .reloc
+        2000 .rsrc
+        2000 .text

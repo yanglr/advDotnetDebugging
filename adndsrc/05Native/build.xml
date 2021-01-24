@@ -1,0 +1,11 @@
+<Project DefaultTargets = "Compile"
+    xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+
+    <Target Name="Compile">
+        <Copy SourceFiles="05Native.dll"
+           DestinationFolder="C:\ADNDBin" />
+
+        <Copy SourceFiles="05Native.pdb"
+           DestinationFolder="C:\ADNDBin" />
+    </Target>
+</Project>

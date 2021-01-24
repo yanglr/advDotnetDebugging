@@ -1,0 +1,18 @@
+<Project DefaultTargets = "Compile"
+    xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+
+    <Target Name="Compile">
+        <Copy SourceFiles="07ComObj.dll"
+           DestinationFolder="C:\ADNDBin" />
+
+        <Copy SourceFiles="07ComObj.pdb"
+           DestinationFolder="C:\ADNDBin" />
+
+        <Copy SourceFiles="07Managed.dll"
+           DestinationFolder="C:\ADNDBin" />
+
+        <Copy SourceFiles="My07ComObj.tlb"
+           DestinationFolder="C:\ADNDBin" />
+
+    </Target>
+</Project>
