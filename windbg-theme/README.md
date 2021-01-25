@@ -5,7 +5,7 @@ For additional customization and installation options see <https://web.archive.o
 
 - Clone this repo using `git clone git@github.com:yanglr/advDotnetDebugging.git`
 - Copy the path of the theme file `.wew` you want to use.
-- launch cmd executing commands the theme file `.wew` 
+- launch cmd executing commands with the path you copied just now:
 
     ```bash
     windbg.exe -Q -WF <PathOf_white.wew>
