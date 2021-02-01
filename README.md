@@ -1,9 +1,7 @@
-# advDotnetDebugging
+# Source code for *Advanced .NET Debugging* (book)
 Source code for the book *Advanced .NET Debugging* written by **Mario Hewardt**.
 
-中文名: 《.NET高级调试》
-
-配套源代码~
+中文名: 《.NET高级调试》配套源代码~
 
 The execute files (.exe) can be generated using:
 ```bash
